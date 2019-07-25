@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyCvApp</string>
+    <string name="education_string">Education</string>
+    <string name="from_to_string">From %s to %s</string>
+    <string name="error_message">Something went wrong!</string>
+</resources>

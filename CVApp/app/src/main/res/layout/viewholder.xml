@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_margin="@dimen/general_margin"
+                android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/company_text"
+            android:layout_width="wrap_content"
+            tools:text="Lloyds Banking Group"
+            android:textSize="@dimen/company_text_size"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/position_text"
+            android:layout_below="@id/company_text"
+            tools:text="Senior Android Developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/from_to_text"
+            tools:text="From 2017 to 2019"
+            android:layout_below="@id/position_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/summary_text"
+            android:layout_below="@id/from_to_text"
+            android:layout_marginTop="@dimen/general_margin"
+            android:layout_width="wrap_content"
+            tools:text="This is a summary. This is a summary. This is a summary. This is a summary. This is a summary. This is a summary. This is a summary."
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

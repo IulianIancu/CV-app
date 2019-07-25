@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_margin">10dp</dimen>
+    <dimen name="name_text_size">20sp</dimen>
+    <dimen name="education_label_text_size">20sp</dimen>
+    <dimen name="company_text_size">20sp</dimen>
+</resources>
